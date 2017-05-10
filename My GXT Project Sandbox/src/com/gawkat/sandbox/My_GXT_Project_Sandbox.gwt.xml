@@ -24,7 +24,9 @@
   <stylesheet src="reset.css" />
   
   <!-- Neptune Theme -->
-  <inherits name="com.sencha.gxt.theme.neptune.Theme" />
+  <!-- <inherits name="com.sencha.gxt.theme.neptune.Theme" /> -->
+  <!-- Triton Theme -->
+  <inherits name="com.sencha.gxt.theme.triton.Theme" />
 
   <!-- Specify the app entry point class.                         -->
   <entry-point class='com.gawkat.sandbox.client.My_GXT_Project_Sandbox'/>
@@ -35,4 +37,5 @@
 
   <!-- allow Super Dev Mode -->
   <add-linker name="xsiframe"/>
+  
 </module>
